@@ -1,0 +1,19 @@
+#' Arabidopsis thaliana - Taxonomy dataset
+#'
+#'
+#' This dataset was given by Lundberg et al., (2012). The taxonomy table provides
+#' information about the taxonomic identity of the OTUs listed in the OTU table.
+#' Each row in the taxonomy table corresponds to an OTU from the OTU table, and
+#' the columns provide details about the taxonomic classification of that OTU,
+#' such as kingdom, phylum, class, order, family, genus, and species. This
+#' information allows researchers to identify the microbial species or groups
+#' that are present in the root samples.
+#' The original dataset contains 777 rows of OTUs and Phylum, Class, Order,
+#' Family in columns corresponding to particular OTU.
+#'
+#' Here only the portion of the dataset is taken for running the functions.
+#' The dataset contains 188 rows and 5 columns.
+#'
+#'
+#' @source \doi{10.1038/nature11237}
+"demo_tax"
